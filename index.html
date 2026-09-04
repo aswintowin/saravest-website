@@ -544,9 +544,7 @@
   }
 
   /* ---------- recently closed ---------- */
-  .closed-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
-  @media (max-width: 980px) { .closed-grid { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 560px) { .closed-grid { grid-template-columns: 1fr; } }
+  .closed-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
   .closed-card {
     border: 1px solid var(--rule-strong);
     border-radius: 4px;
@@ -927,6 +925,10 @@
           <span class="mark">06</span>
           <div><h3>Title you can verify yourself</h3><p>Every LPS plot carries APCRDA-issued title, publicly checkable on the government's own plot lookup portal &mdash; not a private developer's word.</p></div>
         </div>
+        <div class="why-item">
+          <span class="mark">07</span>
+          <div><h3>An institutional hub, not just offices</h3><p>VIT-AP University and SRM University-AP both already run full campuses in the Amaravati region &mdash; residential demand isn't waiting on government relocation alone.</p></div>
+        </div>
       </div>
       <div class="coverage-card reveal" style="margin-top:28px;">
         <h3>Development Pipeline</h3>
@@ -936,6 +938,8 @@
           <li><span><b>&#8377;13,500 crore</b> joint World Bank + Asian Development Bank loan for trunk infrastructure, Nov 2024.</span> <a href="https://www.newsonair.gov.in/amaravati-capital-project-gets-major-boost-with-%E2%82%B913500-crore-loan-from-world-bank-and-adb/" target="_blank" rel="noopener">Source &rarr;</a></li>
           <li><span><b>Phase I</b> covers ~92 sq.km. across Zones 1&ndash;7 and 10, planned for delivery over the next five years.</span> <a href="https://www.worldbank.org/en/country/india/brief/world-bank-support-for-amaravati-as-a-growth-hub-in-andhra-pradesh" target="_blank" rel="noopener">Source &rarr;</a></li>
           <li><span>Assembly, High Court, and Secretariat building <b>layouts finalized</b> by the state government.</span> <a href="https://www.etvbharat.com/en/!state/andhra-pradesh-govt-finalises-layouts-of-assembly-hc-secretariat-buildings-in-amaravati-enn24101503518" target="_blank" rel="noopener">Source &rarr;</a></li>
+          <li><span><b>VIT-AP University</b> already operating a full campus in Inavolu, Amaravati.</span> <a href="https://en.wikipedia.org/wiki/VIT-AP_University" target="_blank" rel="noopener">Source &rarr;</a></li>
+          <li><span><b>SRM University-AP</b> already operating a full campus near Neerukonda, Mangalagiri.</span> <a href="https://en.wikipedia.org/wiki/SRM_University,_Andhra_Pradesh" target="_blank" rel="noopener">Source &rarr;</a></li>
         </ul>
         <p class="coverage-note">Figures and dates are from government and multilateral-lender announcements, current as of this writing &mdash; not Saravest's own projections.</p>
       </div>
@@ -1002,13 +1006,18 @@
           <p class="when">Closed this month</p>
         </article>
         <article class="closed-card"><span class="stamp pending">UNDER CONTRACT</span>
-          <h3>Township 10 &middot; Category A2</h3>
-          <ul class="spec-list"><li>Extent <b>150 Sq.Yd</b></li></ul>
+          <h3>Township 10 &middot; Sector 97</h3>
+          <ul class="spec-list"><li>Extent <b>150 Sq.Yd</b></li><li>Facing <b>East</b></li><li>Category <b>A2</b></li></ul>
           <p class="when">Sold &mdash; registration pending</p>
         </article>
         <article class="closed-card"><span class="stamp pending">UNDER CONTRACT</span>
           <h3>Township 11 &middot; Category C5</h3>
           <ul class="spec-list"><li>Extent <b>600 Sq.Yd</b></li></ul>
+          <p class="when">Sold &mdash; registration pending</p>
+        </article>
+        <article class="closed-card"><span class="stamp pending">UNDER CONTRACT</span>
+          <h3>Township 6 &middot; Sector 74</h3>
+          <ul class="spec-list"><li>Extent <b>250 Sq.Yd</b></li><li>Facing <b>West</b></li><li>Category <b>B1</b></li></ul>
           <p class="when">Sold &mdash; registration pending</p>
         </article>
       </div>
