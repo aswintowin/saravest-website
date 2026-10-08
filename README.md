@@ -45,7 +45,3 @@ This file is a straight export of the version published as a Claude Artifact. To
 2. Ask Claude to update the artifact, then re-export it here the same way (wrap the artifact body in `<!DOCTYPE html><html><head>...</head><body>...</body></html>`).
 
 Re-deploy by dragging the folder again (Netlify Drop) or running the CLI deploy command again — both create a new deployment without touching your DNS/domain setup.
-
-## Known placeholder
-
-The office address in the contact section is still a placeholder ("Amaravati – Vijayawada Road, Andhra Pradesh, India") — replace it with the real address before going live.
