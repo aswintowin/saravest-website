@@ -48,4 +48,4 @@ Re-deploy by dragging the folder again (Netlify Drop) or running the CLI deploy 
 
 ## Known placeholder
 
-The office address in the contact section is still a placeholder ("Amaravathi – Vijayawada Road, Andhra Pradesh, India") — replace it with the real address before going live.
+The office address in the contact section is still a placeholder ("Amaravati – Vijayawada Road, Andhra Pradesh, India") — replace it with the real address before going live.
